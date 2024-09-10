@@ -5,6 +5,12 @@ return {
     opts = {
       ---@type lspconfig.options
       servers = {
+        eslint = {
+          settings = {
+            workingDirectories = { mode = "auto" },
+            useFlatConfig = true,
+          },
+        },
         intelephense = {
           enabled = true,
           init_options = {
@@ -102,15 +108,12 @@ return {
             "css",
             "eruby",
             "html",
-            "htmldjango",
             "javascriptreact",
-            "less",
-            "pug",
             "sass",
             "scss",
-            "typescriptreact",
             "php",
             "blade",
+            "vue",
           },
         },
       },
