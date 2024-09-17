@@ -11,8 +11,19 @@ return {
             useFlatConfig = true,
           },
         },
+        phpactor = {
+          enabled = false,
+          init_options = {
+            -- ["indexer.stub_paths"] = {
+            --   "/Users/marcboisvert/.composer/vendor/php-stubs/wordpress-stubs",
+            --   "/Users/marcboisvert/.composer/vendor/php-stubs/woocommerce-stubs",
+            --   "/Users/marcboisvert/.composer/vendor/php-stubs/acf-pro-stubs",
+            -- },
+            ["language_server_worse_reflection.inlay_hints.enable"] = true,
+          },
+        },
         intelephense = {
-          enabled = true,
+          enable = true,
           init_options = {
             licenceKey = "LICENCE_KEY",
           },
