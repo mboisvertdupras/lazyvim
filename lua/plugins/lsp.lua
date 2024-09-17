@@ -25,7 +25,7 @@ return {
         intelephense = {
           enable = true,
           init_options = {
-            licenceKey = "LICENCE_KEY",
+            licenceKey = vim.fn.getenv("INTELEPHENSE_LICENCE_KEY") or "00000000",
           },
           files = {
             associations = {
