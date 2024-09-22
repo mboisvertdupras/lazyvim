@@ -3,13 +3,15 @@ return {
     "catppuccin/nvim",
     name = "catppuccin",
     opts = {
-      flavour = "mocha",
+      styles = {
+        functions = { "italic" },
+      },
     },
   },
   {
     "LazyVim/LazyVim",
     opts = {
-      -- colorscheme = "catppuccin-mocha",
+      colorscheme = "catppuccin-mocha",
     },
   },
 }

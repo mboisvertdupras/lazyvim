@@ -11,6 +11,36 @@ return {
             useFlatConfig = true,
           },
         },
+        volar = {
+          settings = {
+            format = {
+              enable = false,
+            },
+          },
+        },
+        -- ts_ls = {
+        --   settings = {
+        --     javascript = {
+        --       format = {
+        --         enable = false,
+        --       },
+        --     },
+        --     typescript = {
+        --       format = {
+        --         enable = false,
+        --       },
+        --     },
+        --   },
+        -- },
+        vtsls = {
+          settings = {
+            javascript = {
+              format = {
+                enable = false,
+              },
+            },
+          },
+        },
         phpactor = {
           enabled = false,
           init_options = {
